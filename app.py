@@ -19,10 +19,9 @@ def main():
 def predict_image_file():
     """Process an uploaded image and display its prediction."""
     try:
-        if request.method == 'POST':
-            img = preprocess_img(request.files['file'].stream)
-            pred = predict_result(img)
-            return render_template("result.html", predictions=str(pred))
+        img = preprocess_img(request.files['file'].stream)
+        pred = predict_result(img)
+        return render_template("result.html", predictions=str(pred))
 
     except (KeyError, ValueError, OSError):
         error = "File cannot be processed."
