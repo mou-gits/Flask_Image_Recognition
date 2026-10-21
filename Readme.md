@@ -61,3 +61,5 @@ Checking CI trigger
 - Choose an image from the test images folder.
 - You will see a preview of the uploaded image.
 - Click on **Submit** button and see the magic.
+
+CI trigger verification.
