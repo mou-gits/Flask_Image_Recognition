@@ -31,6 +31,7 @@ Clone the repository in your project directory.
 ```commandline
 git clone https://github.com/Sachin-crypto/Flask_Image_Recognition.git
 ```
+
 OR
 
 Download as **[ZIP](https://github.com/Sachin-crypto/Flask_Image_Recognition/archive/refs/heads/main.zip)** file and extract it in your project directory.
@@ -50,7 +51,10 @@ pip install -r requirements.txt
 ```commandline
 flask --app app.py run --debug
 ```
+
 Click [here](https://geekpython.in/run-flask-app-from-the-command-line-in-windows) to get the detailed guide on running the Flask app from the command line.
+
+Checking CI trigger
 
 # Test
 
