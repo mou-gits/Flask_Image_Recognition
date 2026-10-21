@@ -33,4 +33,4 @@ jobs:
         run: python -m pylint app.py model.py
 
       - name: Run tests
-        run: pytest test_model.py  # Run your tests
+        run: python -m pytest -v  # Run your tests
